@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">JK_0006_memory_v1</string>
+
+    <string name="emoji1">&#127815;</string>
+    <string name="emoji2">&#127817;</string>
+    <string name="emoji3">&#127826;</string>
+    <string name="emoji4">&#127827;</string>
+    <string name="emoji5">&#127805;</string>
+    <string name="emoji6">&#129361;</string>
+    <string name="emoji7">&#129373;</string>
+    <string name="emoji8">&#127818;</string>
+    <string name="start_icon">&#127820;</string>
+
+    <string name="timer">00:00</string>
+    <string name="you_win">YOU WIN!</string>
+    <string name="game_time">GAME TIME:</string>
+    <string name="restart">restart</string>
+    <string name="home">home</string>
+    <string name="cont">continue?</string>
+
+    <string-array name="level">
+        <item>MODE_2X2 </item>
+        <item>MODE_4X4</item>
+        <item>MODE_6X6</item>
+        <item>MODE_8X8</item>
+    </string-array>
+
+</resources>

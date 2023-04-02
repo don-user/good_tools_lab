@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="choose_level">Choose level:</string>
+    <string name="hard">Hard</string>
+    <string name="medium">Medium</string>
+    <string name="easy">Easy</string>
+    <string name="play">Play</string>
+    <string name="timer">00:00</string>
+    <string name="your_correct_answer_s">Your correct answer - %s</string>
+    <string name="your_incorrect_answers_s">Your incorrect answer - %s</string>
+    <string name="play_again">play again</string>
+    <string name="main_menu">main menu</string>
+</resources>

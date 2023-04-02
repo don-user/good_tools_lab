@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">contentlist_v1</string>
+    <string name="contentlist_v1">contentlist_v1</string>
+
+    <string name="main_menu_fragment">Hello main menu fragment</string>
+    <string name="bookmark_fragment">Bookmarks</string>
+    <string name="mainmenu">MainMenu</string>
+    <string name="version_1">App version %s</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="about_us">About Us</string>
+    <string name="close">close</string>
+    <string name="page_number">Page number</string>
+    <string name="_1">1</string>
+
+</resources>

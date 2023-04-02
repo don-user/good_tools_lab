@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_light"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/card_background"
+        android:layout_marginTop="20dp"
+        android:textSize="70sp"
+        android:text="@string/start_icon"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:text="@string/app_name"/>
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/play"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/SpinnerItemStyle"
+        android:layout_marginTop="20dp"
+        android:entries="@array/level"/>
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/accent"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:text="@string/cont"
+        android:visibility="invisible"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"/>
+
+</LinearLayout>

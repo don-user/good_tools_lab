@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/oneFragment"
+        android:icon="@drawable/filter_1"
+        android:checkable="true"
+        android:title="@string/one_screen"/>
+
+    <item
+        android:id="@+id/twoFragment"
+        android:icon="@drawable/filter_2"
+        android:checkable="true"
+        android:title="@string/two_screen"/>
+
+    <item
+        android:id="@+id/threeFragment"
+        android:icon="@drawable/filter_3"
+        android:checkable="true"
+        android:title="@string/three_screen"/>
+
+    <item
+        android:id="@+id/fourFragment"
+        android:icon="@drawable/filter_4"
+        android:checkable="true"
+        android:title="@string/four_screen"/>
+
+    <item
+        android:id="@+id/fiveFragment"
+        android:icon="@drawable/filter_1"
+        android:checkable="true"
+        android:title="@string/five_screen"/>
+
+    <item
+        android:id="@+id/id_exit"
+        android:icon="@drawable/ic_exit_to_app"
+        android:checkable="true"
+        android:title="@string/exit"/>
+</menu>

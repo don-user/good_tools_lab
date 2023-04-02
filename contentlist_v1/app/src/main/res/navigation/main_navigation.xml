@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainMenu">
+
+    <fragment
+        android:id="@+id/mainMenu"
+        android:name="com.template.ui.fragments.MainMenuFragment"
+        android:label="@string/main_menu_fragment"
+        tools:layout="@layout/fragment_main_menu"/>
+
+    <fragment
+        android:id="@+id/bookmark"
+        android:name="com.template.ui.fragments.BookmarkFragment"
+        android:label="@string/bookmark_fragment"
+        tools:layout="@layout/fragment_bookmark"/>
+
+
+</navigation>

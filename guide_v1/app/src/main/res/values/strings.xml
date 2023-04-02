@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">guide_v1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one_screen">One Screen</string>
+    <string name="two_screen">Two screen</string>
+    <string name="three_screen">Three screen</string>
+    <string name="exit">Exit</string>
+    <string name="four_screen">Four screen</string>
+    <string name="five_screen">Five screen</string>
+    <string name="list_of_articles">List of articles</string>
+    <string name="back_home">Back Home</string>
+</resources>

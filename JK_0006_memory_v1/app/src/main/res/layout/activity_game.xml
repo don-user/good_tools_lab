@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_light"
+    tools:context=".ui.GameActivity">
+
+    <Chronometer
+        android:id="@+id/viewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:targetApi="21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/primary_light"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewTimer">
+
+        <LinearLayout
+            android:id="@+id/line1"
+            style="@style/LineStyle"
+            android:layout_marginTop="35dp">
+
+            <TextView
+                android:id="@+id/tvEmoji1"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji2"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji3"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji4"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            style="@style/LineStyle">
+
+            <TextView
+                android:id="@+id/tvEmoji5"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji6"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji7"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji8"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line3"
+            style="@style/LineStyle">
+
+            <TextView
+                android:id="@+id/tvEmoji9"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji10"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji11"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji12"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line4"
+            style="@style/LineStyle">
+
+            <TextView
+                android:id="@+id/tvEmoji13"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji14"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji15"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+
+            <TextView
+                android:id="@+id/tvEmoji16"
+                style="@style/TextStyle"
+                android:text="@string/emoji1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
